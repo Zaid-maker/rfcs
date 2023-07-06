@@ -1,4 +1,5 @@
 name: Readme CI
+
 on:
   # When you push to the `main` branch
   push:
@@ -8,6 +9,7 @@ on:
     - cron: "0 0 * * *"
   # To manually run this workflow
   workflow_dispatch:
+
 jobs:
   summarize:
     name: Update README.md and api.json
@@ -23,5 +25,5 @@ jobs:
       - name: Update note summary
         uses: AnandChowdhary/notes-summary@HEAD
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN || github.token }}
           directory: "notes"
