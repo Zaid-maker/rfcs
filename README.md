@@ -2,7 +2,7 @@
 
 This repository contains Koj's Request for Comments (RFC) documents.
 
-[![Readme CI](https://github.com/koj-co/rfcs/workflows/Readme%20CI/badge.svg)](https://github.com/koj-co/rfcs/actions?query=workflow%3A%22Readme+CI%22)
+[![Readme CI](https://github.com/Zaid-maker/rfcs/actions/workflows/readme.yml/badge.svg?branch=main)](https://github.com/Zaid-maker/rfcs/actions/workflows/readme.yml)
 
 <!--notes-->
 
