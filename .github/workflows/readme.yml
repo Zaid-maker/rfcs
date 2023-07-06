@@ -26,4 +26,4 @@ jobs:
         uses: AnandChowdhary/notes-summary@HEAD
         with:
           token: ${{ secrets.GITHUB_TOKEN || github.token }}
-          directory: "notes"
+          directory: "rfcs"
