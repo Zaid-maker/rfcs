@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "slug": "how-to-create-an-rfc.md",
+    "path": "rfcs/2021/how-to-create-an-rfc.md",
+    "source": "https://github.com/Zaid-maker/rfcs/blob/main/rfcs/2021/how-to-create-an-rfc.md",
+    "title": "How to create an RFC",
+    "date": "2021-07-14T08:11:41.000Z",
+    "excerpt": "Start by creating a new branch with your first name and a slugified version of your RFC separated by a / (slash). For example, if your first name is Anand and the title is \"New feature\", create a new git branch with the name anand/new-feature. Then, create a new file in your new branch, not in main. Create a new markdown file in the rfcs/{year} folder, replacing {year} with the current year. The name of the file should be a slugified version of your title with the .md file extension.",
+    "attributes": {}
+  },
+  {
+    "slug": "upptime-cli.md",
+    "path": "rfcs/2021/upptime-cli.md",
+    "source": "https://github.com/Zaid-maker/rfcs/blob/main/rfcs/2021/upptime-cli.md",
+    "title": "Upptime CLI",
+    "date": "2021-07-21T16:51:02.000Z",
+    "excerpt": "Status Date\nCreated 2021-07-21\n\nCLI Commands Design\n\ninit\n\nFirst, the user initialises with their repository link\n\n$ upptime init [--github]\n\nThen, user configures the .upptimer.yml file. We can use a promptr to get the configuration details\n\n$ upptime configure\n\nafter running this command, a prompt will appear asking for sites names and url, etc. Sample CLI prompter for the same: \n\n\nSample prompter code for the same:\n\n async run() {\n    // just prompt for input\n    const name = await cli.pro",
+    "attributes": {}
+  },
+  {
+    "slug": "cli-upptime-cmds.md",
+    "path": "rfcs/2021/cli-upptime-cmds.md",
+    "source": "https://github.com/Zaid-maker/rfcs/blob/main/rfcs/2021/cli-upptime-cmds.md",
+    "title": "Commands for Upptime-CLI",
+    "date": "2021-07-27T08:22:54.000Z",
+    "excerpt": "Status Proposed\nCreated 2021-07-19\n\nCommands\n\n1. Help\nHelp command will provide users the path to explore and configure upptime by providing all the commands and functionalities.\n\n$ upp -h \n$ upp --help\n\noutput:\n\nusage: upp [--version] [--help]\n\nThese are common Upptime commands used in various situations:\n  run         will run the workflows, update the status of the websites.\n  incidents   report the user about all the active and past Incidents",
+    "attributes": {}
+  },
+  {
+    "slug": "upptime-cli-details.md",
+    "path": "rfcs/2021/upptime-cli-details.md",
+    "source": "https://github.com/Zaid-maker/rfcs/blob/main/rfcs/2021/upptime-cli-details.md",
+    "title": "Upptime-CLI",
+    "date": "2021-08-04T07:19:16.000Z",
+    "excerpt": "Status Proposed\nRFC# #1\nUpdated 2021-08-04\nCreated 2021-07-15\n\nContents\n\nSetting the standards, objectives\n\nGoal\nIntegration \nUser Flows\nCLI Standards (must-read)\n\nDesigning the CLI tool as per the above defined standards, objectives \n\nImplementationCommand, SubCommands, Arguments, Flags\n\n\nUpptime-CLI Config File (must-see)\nCLI Experience Sneak-Peek (must-see)\n\nGoal\n\nDesign a CLI tool which makes Upptime provider agonistic. U",
+    "attributes": {}
+  },
+  {
+    "slug": "add-api-endpoints.md",
+    "path": "rfcs/2023/add-api-endpoints.md",
+    "source": "https://github.com/Zaid-maker/rfcs/blob/main/rfcs/2023/add-api-endpoints.md",
+    "title": "Adding API Endpoints to status page",
+    "date": "2023-04-29T23:56:07.000Z",
+    "excerpt": "API endpoints should be added to the status page for others to have a more easy way to track information such as uptime and planned maintenance. Motivation\n\nUpptime currently provides JSON files in the GitHub repository that can be used to display a monitor's uptime using shields.io for rendering the data. While this may serve for a majority of the people does it lack features and may also suffer from possible rate limits as the githubusercontent.com domain is - to my knowledge - ra",
+    "attributes": {}
+  }
+]
